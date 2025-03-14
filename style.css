@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: #a8dadc;
+  }
+  .game-body {
+    height: 60min;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    background: #f1faee;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 2px 0px;
+  }
+  
+  .reset {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background: #1d3557;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 2rem;
+  }
+  .reset:hover {
+    background: #457b9d;
+  }
+  .new-container {
+    display: none;
+  }
+  .new-container.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: #a8dadc;
+  }
+  .new {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background: #1d3557;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin: 2rem;
+  }
+  .new:hover {
+    background: #457b9d;
+  }
+  .message {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: arial;
+    text-align: center;
+    color: #e63946;
+  }
+  .textO {
+    color: #e63946;
+  }
+  .textX {
+    color: #1d3557;
+  }
